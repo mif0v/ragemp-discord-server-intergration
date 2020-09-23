@@ -21,7 +21,7 @@ For convenience, you can link to a global variable.
 
 > Sets bot status
 
-**Required Arguments**
+_Required Arguments_
 
 * text (String): The text to be displayed in the status of the bot profile.
 * options (Object): Options for status, [more details](https://discord.js.org/#/docs/main/stable/class/ClientUser?scrollTo=setActivity).
@@ -41,14 +41,14 @@ For convenience, you can link to a global variable.
 
 > Shows whether the bot has started or not
 
-**Return Value**
+_Return Value_
 * Boolean
 
 #### Param - Embed
 
 > Copy of "MessageEmbed" class from discord.js package
 
-**Return Value**
+_Return Value_
 * Class
 
 ## Events
@@ -57,7 +57,7 @@ For convenience, you can link to a global variable.
 
 > Creates a new event
 
-**Required Arguments**
+_Required Arguments_
 
 * eventName (String): Key event.
 * channelId (String): ID of the channel to which the event will be linked.
@@ -67,7 +67,7 @@ For convenience, you can link to a global variable.
 
 > Creates several events
 
-**Required Arguments**
+_Required Arguments_
 
 * The list consisting of objects must contain eventName (String), channelId (String), active (Boolean) standard true.
 
@@ -75,7 +75,7 @@ For convenience, you can link to a global variable.
 
 > Removes the event
 
-**Required Arguments**
+_Required Arguments_
 
 * eventName (String): Key event.
 
@@ -83,7 +83,7 @@ For convenience, you can link to a global variable.
 
 > Checks whether a given event exists
 
-**Required Arguments**
+_Required Arguments_
 
 * eventName (String): Key event.
 
@@ -91,7 +91,7 @@ For convenience, you can link to a global variable.
 
 > Sets whether or not the event is active
 
-**Required Arguments**
+_Required Arguments_
 
 * eventName (String): Key event.
 * toggle (Boolean)
@@ -100,24 +100,24 @@ For convenience, you can link to a global variable.
 
 > Returns whether the event is active or not.
 
-**Required Arguments**
+_Required Arguments_
 * eventName (String): Key event.
 
-**Return Value**
+_Return Value_
 * Boolean
 
 #### Method - events.get
 
 > Returns an object that contains events and their parameters.
 
-**Return Value**
+_Return Value_
 * Object
 
 #### Method - events.call
 
 > Calls up the specified event by performing the transferred action.
 
-**Required Arguments**
+__Required Arguments__
 * eventName (String): Key event.
 * action (List || Callback): A list consisting of string values and embeds or callback to which the "client" and "channel" are transmitted.
 
