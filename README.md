@@ -46,7 +46,7 @@ _Return Value_
 
 #### Param - Embed
 
-> Copy of "MessageEmbed" class from discord.js package
+> Copy of [MessageEmbed](https://discordjs.guide/popular-topics/embeds.html) class from discord.js package
 
 _Return Value_
 * Class
