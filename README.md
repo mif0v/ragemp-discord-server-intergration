@@ -117,7 +117,7 @@ _Return Value_
 
 > Calls up the specified event by performing the transferred action.
 
-__Required Arguments__
+_Required Arguments_
 * eventName (String): Key event.
 * action (List || Callback): A list consisting of string values and embeds or callback to which the "client" and "channel" are transmitted.
 
